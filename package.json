@@ -1,0 +1,28 @@
+{
+  "name": "three-js-development",
+  "version": "1.0.0",
+  "description": "https://threejs.org/",
+  "main": "index.js",
+  "dependencies": {
+    "three": "^0.127.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.31.2",
+    "webpack-cli": "^4.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nero-15/three-js-development.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nero-15/three-js-development/issues"
+  },
+  "homepage": "https://github.com/nero-15/three-js-development#readme"
+}
