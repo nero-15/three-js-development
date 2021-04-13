@@ -12,6 +12,9 @@ module.exports = {
 	},
 	resolve: {
 	},
+	devServer: {
+		contentBase: path.resolve(__dirname, 'public')
+	},
 	plugins: [
 		new webpack.ProvidePlugin({
 			'THREE': 'three/build/three'
